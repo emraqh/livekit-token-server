@@ -1,13 +1,13 @@
 {
-  name livekit-token-server,
-  version 1.0.0,
-  description LiveKit token generator for GuvenliSurus,
-  main server.js,
-  scripts {
-    start node server.js
+  "name": "livekit-token-server",
+  "version": "1.0.0",
+  "description": "LiveKit token generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  dependencies {
-    express ^4.18.2,
-    livekit-server-sdk ^1.2.7
+  "dependencies": {
+    "express": "^4.18.2",
+    "@livekit/server-sdk": "^1.2.5"
   }
 }

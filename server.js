@@ -1,5 +1,5 @@
 const express = require('express');
-const { AccessToken } = require('livekit-server-sdk');
+const { AccessToken } = require('@livekit/server-sdk');
 
 const app = express();
 app.use(express.json());
